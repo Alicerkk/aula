@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Reserva de Passagens</title>
+
+</head>
+<body>
+<h1> Formulário de Contato</h1> <br>
+<form>
+
+    <fieldset>
+        <legend> Informações Pessoais</legend>
+        <label for="Nome">Nome</label> <br>
+        <input type="text" id="Nome" name="Nome"> <br>
+        <br><label for="email">Email:</label><br>
+        <input type="email" id="email" Nome="Email"> <br>
+    </fieldset> <br>
+
+    <fieldset>
+        <Legend>Serviços desejados</Legend>
+        <label>
+        <input type="checkbox" name="Comprapas" value="comprapas">Compra de Passagens<br>
+        </label>
+        <label>
+        <br><input type="checkbox" name="Reserva" value="Reserva"> Reserva de Hospedagem<br>
+    </label>
+
+    <label>
+        <br><input type="checkbox" name="Aluguel" value="Aluguel"> Aluguel de Veículos<br>
+    </label>
+</fieldset><br>
+
+<fieldset>
+
+<legend>Forma de Pagamento</legend>
+<label>
+    <input type="radio" name="Cartão" value="cartão">Cartão de Crédito<br>
+</label>
+<label>
+    <input type="radio" name="Boleto" value="Boleto">Boleto<br>
+</label>
+<label>
+    <input type="radio" name="Pix" value="Pix">Pix<br>
+</label>
+
+</fieldset>
+        <br><label  for="Prazopg">Prazo de Pagamento</label> <br>
+        <select id="Prazopg" name="Prazopg">
+            <option value="àVista" selected>À Vista</option>
+            <option value="5x"> 5x sem juros</option>
+            <option value="10x">10x com juros</option>
+            </select>
+        <br>
+
+       <br><label for="mensagem">Comentário</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br>
+        <br><input type="submit" value="Enviar Formulário"><br>
+    </fieldset>
+</form>
+</body>
+</html>
+
